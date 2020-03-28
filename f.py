@@ -5,11 +5,6 @@ def diff(a,b):
     return a-b;
 
 
-def add( a ):
-    sum = 0
-    for x in a:
-        sum += x
-    return sum
 
 aad={};
 l=len(x)
