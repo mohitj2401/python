@@ -21,7 +21,7 @@ def hangman():
             break
 
         print("Guess the word:" , main)
-        guess = input()
+        guess = input().lower()
 
         if guess in validLetters:
             guessmade = guessmade + guess
